@@ -11,18 +11,24 @@ package loading;
  */
 public class isi extends variabel{
     
-    void nama (String nama){
+    void bio (String nama){
         this.nama = nama;
         System.out.println(nama+"Ainu Azzaria");
     }
     
-    void kelas (String kelas){
+    void bio (String nama, String kelas){
+        this.nama = nama;
         this.kelas = kelas;
+        System.out.println(nama+"Ainu Azzaria");
         System.out.println(kelas+"X  RPL 2");
     }
     
-    void kata (String kata){
+    void bio (String nama, String kelas, String kata){
+        this.nama = nama;
+        this.kelas = kelas;
         this.kata = kata;
+        System.out.println(nama+"Ainu Azzaria");
+        System.out.println(kelas+"X  RPL 2");
         System.out.println(kata+"Selamat Belajar dan tetap semangat");
     }
 }

@@ -16,9 +16,9 @@ public class Loading {
      */
     public static void main(String[] args) {
         isi hy = new isi();
-        hy.nama("Nama saya adalah ");
-        hy.kelas("Saya kelas ");
-        hy.kata("Selamat Datang Ainu, ");
+        hy.bio("Nama saya adalah ");
+        hy.bio("Nama saya adalah ", "Saya kelas ");
+        hy.bio("Nama saya adalah ", "Saya kelas ", "Selamat Datang Ainu, ");
     }
     
 }
